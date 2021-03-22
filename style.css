@@ -1,5 +1,8 @@
 #top-menu {
     display: flex;
     justify-content: space-between ;
-    align-items: ;
+}
+.search input:focus {
+    outline: none;
+    background: rgb(161, 144, 144);
 }
