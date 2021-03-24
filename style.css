@@ -2,7 +2,96 @@
     display: flex;
     justify-content: space-between ;
 }
+
+.menu {
+    position: relative;
+    left: 25%;
+    right: 96.89%;
+    top: 16px;
+    bottom: 98.62%;
+}
+
+.logo {
+    position: relative;
+    width: 78px;
+    height: 17.41px;
+    left: 50px;
+    top: 19px;
+}
+
 .search input:focus {
     outline: none;
-    background: rgb(161, 144, 144);
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 1px 0px 0px 1px;
+}
+
+.search input {
+    position: relative;
+    width: 400px;
+    height: 24px;
+    left: 5px;
+    top: 13px;
+}
+
+.search button {
+    position: relative;
+    outline: none;
+    top: 15px;
+    height: 30px;
+    width: 63px;
+    background: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 1px 0px 0px 1px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.create {
+    position: relative;
+    left: 130px;
+    right: 10%;
+    top: 24px;
+    bottom: 98.49%;
+}
+
+.properties {
+    position: relative;
+    left: 160px;
+    right: 10%;
+    top: 24px;
+    bottom: 98.4%;
+}
+
+.notification {
+    position: relative;
+    left: ;
+    right: 50px;
+    top: 10px;
+    bottom: 98.33%;
+}
+
+.new {
+    position: relative;
+    width: 6px;
+    height: 12px;
+    right: 70px;
+    top: 15px;
+    visibility: visible;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgb(214, 1, 1);
+}
+
+.profile {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    right: 20px;
+    top: 15px;
+    background: #0572EF;
 }
