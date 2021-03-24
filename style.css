@@ -1,6 +1,11 @@
 #top-menu {
     display: flex;
     justify-content: space-between ;
+    height: 60px;
+}
+body {
+    margin: 0;
+   background: #f1f1f1; 
 }
 
 .menu {
@@ -65,7 +70,6 @@
 
 .notification {
     position: relative;
-    left: ;
     right: 50px;
     top: 10px;
     bottom: 98.33%;
