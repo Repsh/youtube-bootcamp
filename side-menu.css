@@ -102,16 +102,14 @@ svg {
 }
 
 @media only screen and (max-width: 720px) {
-  font-size: 12px;
-}
-
-.side-menu {
-  width: 72px;
+  .side-menu {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
   .side-menu--closed {
-    width: 40px;
+    width: 55px;
   }
   .side-menu--closed a {
     height: 55px;
