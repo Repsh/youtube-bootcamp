@@ -5,9 +5,8 @@
 }
 body {
     margin: 0;
-   background: #f1f1f1; 
+    background: #f1f1f1 ;
 }
-
 .menu {
     position: relative;
     left: 25%;
@@ -98,4 +97,5 @@ body {
     right: 20px;
     top: 15px;
     background: #0572EF;
+    border-radius: 50%;
 }
