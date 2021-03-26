@@ -11,6 +11,7 @@ a {
 
 svg  {
     fill: #606060;
+    transition: transform 2s;
 }
  
 
@@ -20,6 +21,7 @@ svg  {
     display: flex;
     flex-direction: column;
     background: #fff;
+    padding-top: 60px;
     
     hr {
         width: 100%;
@@ -52,9 +54,18 @@ svg  {
         margin-right: 1em;
     }
 
-    a:active svg, 
-    .current svg {
+    @mixin fill {
         fill: red;
+        transform: rotate(-15deg);
+        transition: transform 2s;
+        
+    }
+    a:active svg {
+        @include fill;
+    }
+
+    .current svg {
+        @include fill;
     }
 
     a.current {

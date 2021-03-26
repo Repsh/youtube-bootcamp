@@ -4,6 +4,10 @@ a {
 
 svg {
   fill: #606060;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
 }
 
 .side-menu {
@@ -17,6 +21,7 @@ svg {
       -ms-flex-direction: column;
           flex-direction: column;
   background: #fff;
+  padding-top: 60px;
 }
 
 .side-menu hr {
@@ -60,9 +65,24 @@ svg {
   margin-right: 1em;
 }
 
-.side-menu a:active svg,
+.side-menu a:active svg {
+  fill: red;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+}
+
 .side-menu .current svg {
   fill: red;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
 }
 
 .side-menu a.current {
